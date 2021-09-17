@@ -5,3 +5,8 @@ Please is a one-liner sudo alternative bash script.
 ```
 $ git clone https://github.com/gamingdoom/please.git && cd please && please cp -v please /usr/bin/please
 ```
+
+# Example
+```
+$ please pacman -Syu
+```
