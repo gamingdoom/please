@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-su -c "$*" root
+su -c "$*" $(getent passwd "0" | cut -d: -f1)
